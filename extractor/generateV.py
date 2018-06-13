@@ -2,7 +2,7 @@ import numpy as np
 
 def generateV(source_seq):
     
-    l=int(source_seq.shape)[0])
+    l=int((source_seq.shape)[0])
     v=np.zeros(l//2, dtype=int)
     shape_v = 0
     xor = 0

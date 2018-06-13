@@ -2,7 +2,7 @@ import math
 import numpy as np
 
 def vonNeumann(source_seq):
-    l=int(source_seq.shape)[0])
+    l=int((source_seq.shape)[0])
     b=np.zeros(l//2, dtype=int)
     shape_b=0
 
